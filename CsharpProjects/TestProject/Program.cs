@@ -1,7 +1,7 @@
-﻿string first = "Hello";
-string second = "World";
-string result = string.Format("{0} {1}!", first, second);
-Console.WriteLine(result);
+﻿//string first = "Hello";
+//string second = "World";
+//string result = string.Format("{0} {1}!", first, second);
+//Console.WriteLine(result);
 
 //string first = "Hello";
 //string second = "World";
@@ -32,3 +32,7 @@ Console.WriteLine(result);
 //Console.WriteLine($"     Sub Total: {subtotal:C}");
 //Console.WriteLine($"           Tax: {taxPercentage:P2}");
 //Console.WriteLine($"     Total Billed: {total:C}");
+
+string input = "Pad this";
+ Console.WriteLine(input.PadLeft(12));
+ Console.WriteLine(input.PadRight(12));
