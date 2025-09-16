@@ -61,12 +61,17 @@ decimal newReturn = 0.13125m;
 decimal newProfit = 63000000.0m;
 
 // Your logic here
+Console.WriteLine($" dear {customerName} As a customer of our " ); 
+Console.WriteLine($" {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return");
+ 
 
 Console.WriteLine("Here's a quick comparison:\n");
 
 string comparisonMessage = "";
 
 // Your logic here
-Console.WriteLine(customerName);
+
 
 Console.WriteLine(comparisonMessage);
+
+
