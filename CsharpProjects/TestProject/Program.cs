@@ -67,5 +67,6 @@ Console.WriteLine("Here's a quick comparison:\n");
 string comparisonMessage = "";
 
 // Your logic here
+Console.WriteLine(customerName);
 
 Console.WriteLine(comparisonMessage);
