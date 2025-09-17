@@ -63,13 +63,15 @@ decimal newProfit = 63000000.0m;
 // Your logic here
 Console.WriteLine($" dear {customerName} As a customer of our " ); 
 Console.WriteLine($" {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return");
- 
+Console.WriteLine($"Currently, you own {currentShares} shares at a return of {currentReturn:P2}" );
+Console.WriteLine($" Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be ${newProfit}." );
+
 
 Console.WriteLine("Here's a quick comparison:\n");
 
 string comparisonMessage = "";
 
-// Your logic here
+// Your logic her
 
 
 Console.WriteLine(comparisonMessage);
