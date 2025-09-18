@@ -76,6 +76,6 @@ string comparisonMessage = "";
 // Your logic her
 
 Console.WriteLine(comparisonMessage);
-Console.WriteLine($" {currentProduct}    {currentReturn:P2}  ");
-
+Console.WriteLine($" {currentProduct} {currentReturn:P2} ${currentProfit:c}");
+Console.WriteLine($" {newProduct}  {newReturn:P2} ${newProfit}");
 
