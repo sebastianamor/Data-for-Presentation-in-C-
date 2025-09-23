@@ -66,7 +66,7 @@ decimal newProfit = 63000000.0m;
 Console.WriteLine($" dear {customerName} As a customer of our " ); 
 Console.WriteLine($" {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return");
 Console.WriteLine($"Currently, you own {currentShares} shares at a return of {currentReturn:P2}" );
-Console.WriteLine($" Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be ${newProfit}." );
+Console.WriteLine($" Our new product, {newProduct} offers a return of {newReturn:p}.  Given your current volume, your potential profit would be ${newProfit:C}." );
 
 
 Console.WriteLine("Here's a quick comparison:\n");
@@ -77,5 +77,5 @@ string comparisonMessage = "";
 
 Console.WriteLine(comparisonMessage);
 Console.WriteLine($" {currentProduct} {currentReturn:P2} ${currentProfit:c}");
-Console.WriteLine($" {newProduct}  {newReturn:P2} ${newProfit}");
+Console.WriteLine($" {newProduct}  {newReturn:P2} ${newProfit:C}");
 
